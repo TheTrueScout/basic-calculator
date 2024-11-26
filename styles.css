@@ -1,0 +1,30 @@
+body {
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  display: flex;
+  gap: 1.5rem;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+}
+
+.display-calculation {
+  height: 3rem;
+  width: 12rem;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.reset-expression {
+  height: 3rem;
+  width: 12rem;
+}
